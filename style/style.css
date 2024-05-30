@@ -4,6 +4,10 @@
     background-color: #FBFBFE ;
 }
 
+.musique {
+	text-decoration: underline;
+	color: blue;
+
 .row {
 	background-color: #FBFBFE !important;
 }
