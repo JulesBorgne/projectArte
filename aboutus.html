@@ -279,6 +279,23 @@
 	var timelineAjaxData = {"urltpl":"https:\/\/www.arte.tv\/sites\/corporate\/wp-content\/themes\/arte-entreprise","mainurl":"https:\/\/www.arte.tv\/sites\/corporate","nonce":"0e931bad8e"};
 	/* ]]> */
 </script>
+		//Script pour le menu accordion
+    	const items = document.querySelectorAll(".accordion button");
+
+    	function toggleAccordion() {
+    		const itemToggle = this.getAttribute('aria-expanded');
+
+    		for (i = 0; i < items.length; i++) {
+    			items[i].setAttribute('aria-expanded', 'false');
+    		}
+
+    		if (itemToggle == 'false') {
+    			this.setAttribute('aria-expanded', 'true');
+    		}
+    	}
+
+    	items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script>
 <script type='text/javascript' src='https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/js/arte-entreprise.js?ver=1.89.0' id='arte-entreprise-js'></script>
 <script type='text/javascript' src='https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/js/jquery.royalslider.custom.min.js?ver=1.89.0' id='royalslider-js'></script>
 <script type='text/javascript' src='https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/js/jquery.scrollTo.min.js?ver=1.89.0' id='scrollto-js'></script>
