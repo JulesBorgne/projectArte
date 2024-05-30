@@ -74,6 +74,12 @@ ul {
     text-decoration: color #003399;
 }
 
+@media print, screen and (min-width: 48em) {
+    html body {
+        padding-top: 0rem;
+    }
+}
+
 .ds-yiwkk0 {
     width: 100%;
     -webkit-box-pack: justify;
