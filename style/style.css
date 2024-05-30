@@ -746,6 +746,10 @@ a .next-menu__link {
     padding: 1em 1.5em 1em 0;
 }
 
+.accordion {
+	padding-bottom: 1.5em;
+}
+
 .accordion .icon {
     display: inline-block;
     position: absolute;
