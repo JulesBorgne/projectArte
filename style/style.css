@@ -4,6 +4,10 @@
     background-color: #FBFBFE ;
 }
 
+.row {
+	background-color: #FBFBFE;
+}
+
 @media (min-width: 1200px) {
     .ds-1kjzcj3 {
         padding-left: 25px;
